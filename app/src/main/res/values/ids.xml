@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rememberMeCheckBox" type="id" />
+    <item name="signUpTextView" type="id" />
+    <item name="forgotPasswordTextView" type="id" />
+    <item name="foodStallLabel" type="id" />
+</resources>

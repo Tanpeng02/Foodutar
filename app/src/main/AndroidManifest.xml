@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Foodie"
+        tools:targetApi="31">
+        <activity android:name=".LocationEggettePop"/>
+        <activity android:name=".LocationMCafeEconomyRiceStall"/>
+        <activity android:name=".LocationcakersInnBakery"/>
+        <activity android:name=".LocationAuntyJuliaCafeteria"/>
+        <activity android:name=".LocationLocationUncleAlanVegetarian"/>
+        <activity android:name=".LocationcFourNoodlesStall"/>
+        <activity android:name=".LocationCharisFoodCorner"/>
+        <activity
+            android:name=".DiscussionCommunity"
+            android:exported="true" />
+        <activity
+            android:name=".menu.CFourNoodlesStallMenu"
+            android:exported="false" />
+        <activity
+            android:name=".menu.MCafeEconomyRiceStallMenu"
+            android:exported="false" />
+        <activity
+            android:name=".menu.UncleAlanVegetarianMenu"
+            android:exported="false" />
+        <activity
+            android:name=".menu.CharisFoodCornerMenu"
+            android:exported="false" />
+        <activity
+            android:name=".menu.CakersInnBakeryMenu"
+            android:exported="false" />
+        <activity
+            android:name=".menu.AuntyJuliaCafeteriaMenu"
+            android:exported="false" />
+        <activity
+            android:name=".menu.EggettePopMenu"
+            android:exported="false" />
+        <activity
+            android:name=".foodstall.CharisFoodCorner"
+            android:exported="false" />
+        <activity
+            android:name=".foodstall.CFourNoodlesStall"
+            android:exported="false" />
+        <activity
+            android:name=".foodstall.UncleAlanVegetarian"
+            android:exported="false" />
+        <activity
+            android:name=".foodstall.AuntyJuliaCafeteria"
+            android:exported="false" />
+        <activity
+            android:name=".foodstall.CakersInnBakery"
+            android:exported="false" />
+        <activity
+            android:name=".foodstall.MCafeEconomyRiceStall"
+            android:exported="false" />
+        <activity
+            android:name=".foodstall.EggettePop"
+            android:exported="true" />
+        <activity
+            android:name=".Location"
+            android:exported="false" />
+        <activity
+            android:name=".FoodStall"
+            android:exported="true" />
+        <activity
+            android:name=".Feedback"
+            android:exported="true" />
+        <activity
+            android:name=".HomeFragment"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Signin"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ThemeFragment"
+            android:exported="true" />
+        <activity
+            android:name=".Menu"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

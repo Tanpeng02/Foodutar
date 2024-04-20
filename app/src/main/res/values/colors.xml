@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font">@android:color/black</color>
+    <color name="mainColor">#de5246</color>
+    <color name="menuBackg">@android:color/white</color>
+    <color name="cardColor">@android:color/white</color>
+    <color name="lavender">#8692f7</color>
+    <color name="black">#FF000000</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="grey">#808080</color>
+</resources>

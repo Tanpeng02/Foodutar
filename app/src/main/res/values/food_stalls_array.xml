@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="food_stalls_array">
+        <item>Select a food stall</item>
+        <item>Aunty Julia Cafeteria</item>
+        <item>Cakers Inn Bakery</item>
+        <item>CFour Noodles Stall</item>
+        <item>Charis Food Corner</item>
+        <item>EggettePop</item>
+        <item>MCafe Economy Rice Stall</item>
+        <item>Uncle Alan Vegetarian</item>
+
+    </string-array>
+</resources>

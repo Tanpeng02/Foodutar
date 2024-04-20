@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Image for when the button is pressed -->
+    <item android:drawable="@drawable/dislike_selected" android:state_selected="true"/>
+    <!-- Default image when the button is not pressed -->
+    <item android:drawable="@drawable/dislike_icon"/>
+</selector>
