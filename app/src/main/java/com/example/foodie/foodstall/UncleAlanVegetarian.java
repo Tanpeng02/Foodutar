@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.foodie.DiscussionCommunity;
 import com.example.foodie.Feedback;
 import com.example.foodie.Location;
+import com.example.foodie.LocationLocationUncleAlanVegetarian;
 import com.example.foodie.R;
 import com.example.foodie.menu.UncleAlanVegetarianMenu;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -93,7 +94,7 @@ public class UncleAlanVegetarian extends AppCompatActivity {
                     public void onClick(View view) {
                         Toast.makeText(UncleAlanVegetarian.this, "Navigating to Location page...", Toast.LENGTH_SHORT).show();
 
-                        Intent intent = new Intent(UncleAlanVegetarian.this, Location.class);
+                        Intent intent = new Intent(UncleAlanVegetarian.this, LocationLocationUncleAlanVegetarian.class);
                         startActivity(intent);
                     }
                 });

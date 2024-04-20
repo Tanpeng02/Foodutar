@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.foodie.DiscussionCommunity;
 import com.example.foodie.Feedback;
 import com.example.foodie.Location;
+import com.example.foodie.LocationcakersInnBakery;
 import com.example.foodie.R;
 import com.example.foodie.menu.CakersInnBakeryMenu;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -93,7 +94,7 @@ public class CakersInnBakery extends AppCompatActivity {
                     public void onClick(View view) {
                         Toast.makeText(CakersInnBakery.this, "Navigating to Location page...", Toast.LENGTH_SHORT).show();
 
-                        Intent intent = new Intent(CakersInnBakery.this, Location.class);
+                        Intent intent = new Intent(CakersInnBakery.this, LocationcakersInnBakery.class);
                         startActivity(intent);
                     }
                 });
